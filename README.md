@@ -1,6 +1,6 @@
 # AI Lab
 
-> 11 个「曾经重要、如今被替代」的历史 AI 方法，用纯 Node.js（零运行时依赖）逐个重实现，附带可运行的 demo、单元测试与网页交互实验台。
+> 11 个曾经的 AI 方法，用纯 Node.js（零运行时依赖）逐个重实现，附带可运行的 demo、单元测试与网页交互实验台。
 > A zero-dependency Node.js reimplementation lab of 11 historical AI techniques that were once influential and are now superseded — each with runnable demos, tests, and a web workbench.
 
 [![Node](https://img.shields.io/badge/node-%3E%3D18-5fa04e)](https://nodejs.org)
