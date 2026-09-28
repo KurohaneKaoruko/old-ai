@@ -164,7 +164,7 @@ are reserved by default.
 
 ## 中文说明
 
-**AI Lab** 收录 11 种「曾经重要、如今被替代」的历史 AI 方法，用纯
+**AI Lab** 收录 11 种曾经的 AI 方法，用纯
 Node.js（无任何运行时依赖）重实现。每个子项目都包含可运行的 `demo.js`、说明
 `README.md` 和单元测试；仓库还附带一个零依赖网页实验台
 （`npm start` → <http://localhost:3000>）：按算法类型定制交互面板——定理证明给
