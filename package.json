@@ -1,0 +1,30 @@
+{
+  "name": "ai-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Historical deprecated AI techniques implemented in Node.js",
+  "scripts": {
+    "start": "node web/server.js",
+    "demo:all": "node symbolic_reasoning/1956_logic_theorist/demo.js && node conversational_agents/1966_eliza/smoke.js && node knowledge_representation/1968_semantic_network/demo.js && node knowledge_representation/1974_frames/demo.js && node conversational_agents/1977_script_nlu/demo.js && node expert_systems/1970s_mycin_style/demo.js && node expert_systems/1980s_blackboard_system/demo.js && node robotics_systems/1986_subsumption_architecture/demo.js && node statistical_nlp/1990s_hmm_tagger/demo.js && node language_systems/1990s_rule_based_mt/demo.js && node computer_vision/2001_haar_like_cascade/demo.js",
+    "demo:logic_theorist": "node symbolic_reasoning/1956_logic_theorist/demo.js",
+    "demo:eliza": "node conversational_agents/1966_eliza/demo.js",
+    "demo:semantic_network": "node knowledge_representation/1968_semantic_network/demo.js",
+    "demo:frames": "node knowledge_representation/1974_frames/demo.js",
+    "demo:script_nlu": "node conversational_agents/1977_script_nlu/demo.js",
+    "demo:mycin": "node expert_systems/1970s_mycin_style/demo.js",
+    "demo:blackboard": "node expert_systems/1980s_blackboard_system/demo.js",
+    "demo:subsumption": "node robotics_systems/1986_subsumption_architecture/demo.js",
+    "demo:hmm": "node statistical_nlp/1990s_hmm_tagger/demo.js",
+    "demo:rbmt": "node language_systems/1990s_rule_based_mt/demo.js",
+    "demo:haar": "node computer_vision/2001_haar_like_cascade/demo.js",
+    "test": "node tests/run_tests.js",
+    "lint": "eslint . --ext .js",
+    "lint:fix": "eslint . --ext .js --fix",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "prettier": "^3.3.3"
+  }
+}

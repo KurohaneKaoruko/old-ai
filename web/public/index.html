@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Lab · 历史算法实验台</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="brand">
+        <h1>AI Lab</h1>
+        <p>11 个历史 AI 算法 · 类型化交互实验台</p>
+      </div>
+      <nav id="algo-list" class="algo-list" aria-label="算法列表"></nav>
+    </aside>
+
+    <main class="main">
+      <header class="main-header">
+        <div class="chat-title">
+          <h2 id="algo-name">选择左侧算法开始</h2>
+          <span id="algo-meta" class="algo-meta"></span>
+        </div>
+        <button id="reset-btn" class="btn-reset" type="button" title="清空该算法的服务端状态与对话记录">重置</button>
+      </header>
+
+      <div class="workspace">
+        <section id="view" class="view-area" aria-label="结果可视化" aria-live="polite"></section>
+        <section class="panel" aria-label="控制面板">
+          <div id="control-form" class="control-form"></div>
+        </section>
+      </div>
+
+      <details class="chat-box">
+        <summary>自由对话（备用通道）</summary>
+        <div id="messages" class="messages" aria-live="polite"></div>
+        <footer class="composer">
+          <input id="input" type="text" autocomplete="off" placeholder="自然语言输入，回车发送…" disabled />
+          <button id="send-btn" type="button" disabled>发送</button>
+        </footer>
+      </details>
+    </main>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
